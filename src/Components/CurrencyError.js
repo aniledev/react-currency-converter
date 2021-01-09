@@ -17,7 +17,11 @@ export default class CurrencyError extends Component {
   render() {
     // this will conditionally render an error message if hasError is true; otherwise display the children as normal
     if (this.state.hasError) {
-      return <h2>Could not display this currency.</h2>;
+      return (
+        <div className="Error">
+          <h2>Could not display this currency.</h2>
+        </div>
+      );
     }
     return this.props.children;
   }
