@@ -6,7 +6,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        Germany: <Currency value={21} locale="de-DE" currency="USD" />
+        Germany: <Currency value={21} locale="de-DE" currency="US" />
         USA: <Currency value={21} locale="en-US" currency="USD" />
       </div>
     );
