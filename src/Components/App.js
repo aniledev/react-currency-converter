@@ -9,6 +9,8 @@ class App extends Component {
       <div className="App">
         <CurrencyError>
           Germany: <Currency value={21} locale="de-DE" currency="US" />
+        </CurrencyError>
+        <CurrencyError>
           USA: <Currency value={21} locale="en-US" currency="USD" />
         </CurrencyError>
       </div>
