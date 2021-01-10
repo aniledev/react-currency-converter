@@ -8,7 +8,7 @@ class App extends Component {
       // wrap app JSX in CurrencyError component
       <div className="App">
         <CurrencyError>
-          Germany: <Currency value={21} locale="de-DE" currency="US" />
+          Germany: <Currency value={21} locale="de-DE" currency="USD" />
         </CurrencyError>
         <CurrencyError>
           USA: <Currency value={21} locale="en-US" currency="USD" />
