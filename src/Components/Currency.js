@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../Styles/Currency.css";
 
 export default class Currency extends Component {
   render() {
